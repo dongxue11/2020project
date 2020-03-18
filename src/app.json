@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/index/searchResult/main",
+    "pages/index/memberDetail/main",
+    "pages/index/jumpBanner/main",
+    "pages/applyShift/main",
+    "pages/applyShift/finishShift/main",
+    "pages/applyShift/howToRegister/main",
+    "pages/setting/main",
+    "pages/setting/checkShortInfo/main",
+    "pages/setting/changePassword/main",
+    "pages/login/main",
+    "pages/login/forgetPassword/main",
+    "pages/login/changePassword/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "协和医院病例流转系统",
+    "navigationBarTextStyle": "black",
+    "onReachBottomDistance": 100
+  },
+  "usingComponents": {
+    "van-button": "/@vant/weapp/dist/button/index",
+    "van-icon": "/@vant/weapp/dist/icon/index",
+    "van-dialog": "/@vant/weapp/dist/dialog/index",
+    "van-cell": "/@vant/weapp/dist/cell/index",
+    "van-checkbox": "/@vant/weapp/dist/checkbox/index",
+    "van-toast": "/@vant/weapp/dist/toast/index",
+    "van-datetime-picker": "/@vant/weapp/dist/datetime-picker/index",
+    "van-popup": "/@vant/weapp/dist/popup/index",
+    "van-picker": "/@vant/weapp/dist/picker/index",
+    "van-uploader": "/@vant/weapp/dist/uploader/index"
+  }
+}
